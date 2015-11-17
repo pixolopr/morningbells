@@ -1,0 +1,11 @@
+http://www.chartjs.org/
+
+http://hpneo.github.io/gmaps/examples.html
+
+http://stickyjs.com/
+
+http://johnpolacek.github.io/superscrollorama/
+
+http://fittextjs.com/
+
+http://demo.tutorialzine.com/2012/04/mobile-touch-gallery/
