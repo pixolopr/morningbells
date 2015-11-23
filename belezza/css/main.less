@@ -1,0 +1,111 @@
+@bodyBGcolor : beige;
+@whitecolor : white;
+@blackcolor : black;
+@redcolor: #ff5252;
+@backgroundcolor: #eee7e7;
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+@robotofont: roboto;
+body {
+    background-color: @bodyBGcolor;
+}
+.navbar_header {
+    background-color: rgba(240, 248, 255, 0);
+}
+.navbar_head_left {
+    @media screen {
+        /* DESKTOP VIEW */
+        width: 160px;
+        @media (max-width: 768px) {
+            /* MOBILE VIEW */
+            width: 100%;
+        }
+    }
+}
+.logoimage {
+    @media screen {
+        /* DESKTOP VIEW */
+        width: 100%;
+        @media (max-width: 460px) {
+            /* MOBILE VIEW */
+            width: 42%;
+        }
+        @media (max-width: 768px) and (min-width: 460px) {
+            /* MOBILE VIEW */
+            width: 32%;
+        }
+    }
+}
+
+/* MENU NAV BEHIND THE MENU OPTIONS */
+
+.mobile_menu_collapse {
+    @media screen {
+        /* DESKTOP VIEW */
+        background-color: rgba(240, 248, 255, 0);
+        @media (max-width: 768px) {
+            /* MOBILE VIEW */
+            background-color: @whitecolor;
+        }
+    }
+}
+
+/* MENU OPTIONS */
+
+.menu_option {
+    @media screen {
+        /* DESKTOP VIEW */
+        color: @whitecolor !important;
+        @media (max-width: 768px) {
+            /* MOBILE VIEW */
+            color: @blackcolor !important;
+        }
+    }
+}
+
+/*RESUSABLES*/
+
+.whitebg {
+    background-color: @whitecolor;
+}
+.whitecolor {
+    color: @whitecolor;
+}
+.blackbg {
+    background-color: @blackcolor;
+}
+.blackcolor {
+    color: @blackcolor;
+}
+.fullwidth {
+    width: 100%;
+}
+.fullheight {
+    height: 100vh;
+}
+
+/* USE BEFORE EVERY SECTION */
+.sectionpage {
+    margin-top: 15px;
+    width: 100%;
+    box-shadow: 0px -2px 5px #656262;
+    background-color: @backgroundcolor;
+}
+.header_div {
+    width: 100%;
+    text-align: center;
+    font-family: @robotofont;
+}
+.header_bullet {
+    width: 15px;
+    height: 15px;
+    background-color: @redcolor;
+    display: -webkit-inline-box;
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(745eg);
+}
