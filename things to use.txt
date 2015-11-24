@@ -13,3 +13,7 @@ http://demo.tutorialzine.com/2012/04/mobile-touch-gallery/
 FONT :
 header - century gothic
 content - roboto / helvetica
+
+Red Color: ff5252
+bg color: eee7e7
+Grey color: 474745
